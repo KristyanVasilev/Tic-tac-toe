@@ -74,9 +74,9 @@ namespace TicTacToe
                     if (keyInfo.Key == ConsoleKey.Y)
                     {
                         playAgain = true;
+                        movesPlayed = 0;
                         Initialize(board);
                         Print(board);
-
                     }
                     else if (keyInfo.Key == ConsoleKey.N)
                     {
